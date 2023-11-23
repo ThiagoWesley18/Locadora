@@ -1,9 +1,9 @@
 # Sistema de Gestão de Locadora de Motos
 ## Descrição
 
-Sistema com funcionalidaes de cadastro de motos, clientes, locações.  
+Sistema com funcionalidades de cadastro de motos, clientes, locações.  
 As motos podem ser classificadas em:
-- Economico
+- Econômico
 - Standard
 - Premium 
 
