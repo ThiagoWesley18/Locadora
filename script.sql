@@ -1,42 +1,3 @@
-# Sistema de Gestão de Locadora de Motos
-## Descrição
-
-Sistema com funcionalidaes de cadastro de motos, clientes, locações.  
-As motos podem ser classificadas em:
-- Economico
-- Standard
-- Premium 
-
-Cada moto tem informações como:
-- Placa
-- Categoria
-- Marca
-- Dimensões
-- Tipo de motor
-- Capacidade do tanque
-- Media de consumo
-- Acessórios
-- Valor da diária
-
-Para alugar uma moto é necessário que o cliente esteja cadastrado no sistema.O aluguel pode ser feito com as seguintes informações:
-- data de retirada
-- data de devolução
-- id do cliente
-- placas das motos
-- Opcionais
-
-Funcionalidades:
-- Controlar o estoque de motos
-- Controlar o cadastro de clientes
-- Alugar motos
-- Verificar disponibilidade de motos
-- Verificar disponibilidade de clientes
-
-## Tecnologias
-- Java 8
-- MySQL  
-para a criação do banco de dados, utilize o script abaixo:
-```sql
 CREATE DATABASE locadorabd;
 CREATE USER 'user_locadora'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON locadorabd.* TO 'user_locadora'@'localhost' WITH GRANT OPTION;
@@ -89,3 +50,10 @@ FOREIGN KEY (CPF_cadastrado) REFERENCES tbl_cliente (CPF) ON DELETE SET NULL
 
 
 SHOW TABLES;
+
+
+
+
+
+
+
